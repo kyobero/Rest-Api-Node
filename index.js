@@ -13,6 +13,12 @@ var fs = require('fs');
 var _data = require('./lib/data');
 
 
+//Testing
+//@TODO
+_data.create('test','newfile',{'foo':'bar'}, function(err){
+  console.log('This was the error', err);
+  });
+
  // Instantiate the HTTP server
 var httpServer = http.createServer(function(req,res){
   unifiedServer(req,res);
