@@ -15,11 +15,11 @@ var handlers = require('./lib/handlers');
 var helpers = require('./lib/helpers');
 
 
-//Testing
-//@TODO
-_data.read('test','newfile',function(err){
-  console.log('This was the error', err);
-  });
+// //Testing
+// //@TODO
+// _data.delete('test','newfile',function(err){
+//   console.log('This was the error', err);
+//   });
 
  // Instantiate the HTTP server
 var httpServer = http.createServer(function(req,res){
