@@ -27,7 +27,9 @@ var httpServer = http.createServer(function(req,res){
 });
 
 // Start the HTTP server
-httpServer.listen(config.httpPort,function(){
+var PORT = process.env.PORT ||  config.httpPort;
+
+httpServer.listen(PORT,function(){
   console.log('The HTTP server is running on port '+config.httpPort);
 });
 

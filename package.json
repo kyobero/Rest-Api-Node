@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "Node API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyobero/Rest-Api-Node.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Ronald k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyobero/Rest-Api-Node/issues"
+  },
+  "homepage": "https://github.com/kyobero/Rest-Api-Node#readme"
+}
