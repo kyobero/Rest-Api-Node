@@ -26,6 +26,7 @@ var httpServer = http.createServer(function(req,res){
   unifiedServer(req,res);
 });
 
+
 // Start the HTTP server
 var PORT = process.env.PORT ||  config.httpPort;
 
@@ -113,7 +114,8 @@ var unifiedServer = function(req,res){
 // Define the request router
 var router = {
   'ping' : handlers.ping,
-  'users':handlers.users
+  // 'users':handlers.users,
+  '': handlers.eit
 };
 
 
